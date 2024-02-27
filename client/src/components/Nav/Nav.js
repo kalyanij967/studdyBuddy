@@ -20,20 +20,20 @@ const Nav = () => {
                     <NavLink to='/services' className="navbar-link">Services</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/contact' className="navbar-link">Contact Us</NavLink>
+                    <NavLink to='/contact' className="navbar-link">Contact</NavLink>
                 </li>
                 <li>
                     {
                     isAuthenticated ? (
                     <li>
-                    <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+                    <button className='logout btn btn-info ' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
                     Log Out
                     </button>
                     </li>
                     )
                     :(
                     <li>
-                        <button onClick={() => loginWithRedirect()}>Log In</button> 
+                        <button className='login btn btn-info' onClick={() => loginWithRedirect()}>Log In</button> 
                     </li>
                     )
                     }

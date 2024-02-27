@@ -5,11 +5,26 @@
     li{
         list-style: none;
     }
-
+    
     .navbar-link{
         text-decoration: none;
+        width: 91px;
+        color: #1995AD;
+        font-weight: bold;
     }
     .navbar-link:hover{
-        color: pink;
+        color: #A1D6E2;
     }
+}
+
+.btn{
+    width: 91px;
+    background-color: #1995AD !important;
+    border: black !important;
+
+}
+
+.btn:hover{
+    background-color: #A1D6E2 !important;
+    
 }

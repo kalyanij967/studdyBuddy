@@ -1,0 +1,10 @@
+.footer{
+    border: 5px black;
+    border-radius: 5px;
+    background-color: #A1D6E2 !important;
+}
+
+.logo{
+    height: auto;
+    max-width: 30%;
+}

@@ -1,8 +1,15 @@
-// import SubHome from '../SubHome/SubHome'
+import CardSection from '../CardSection/CardSection';
+import HomeCarousel from '../HomeCarousel/HomeCarousel'
 
 const Home = () => {
     return (
-        <h1>Home</h1>
+        <>
+            <div className="home">
+                <HomeCarousel/>
+                <br />
+                <CardSection/>
+            </div>
+        </>
     )
 }
 
