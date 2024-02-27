@@ -1,5 +1,20 @@
-.card{
-    margin: 10px ;
+.Card{
+    margin: 40px ;
     padding: 10px ;
-    
+    justify-content: center;
+    border: 0px;
+    text-align: center;
+
+    h4{
+        margin-bottom: 15px;
+    }
+}
+
+.row{
+    justify-content: center;
+    margin: 5px;
+}
+
+.heading{
+    margin-bottom:25px;
 }
