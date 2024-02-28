@@ -5,7 +5,34 @@
     li{
         list-style: none;
     }
-    
+    .search-container {
+        display: flex;
+        align-items: center;
+      }
+      
+      .location-dropdown {
+        margin-right: 10px;
+        padding: 8px;
+      }
+      
+      .search-bar {
+        flex: 1;
+        padding: 10px 15px;
+        border-radius: 25px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        outline: none;
+        transition: box-shadow 0.3s ease-in-out;
+      }
+      
+      .search-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+      
+      
     .navbar-link{
         text-decoration: none;
         width: 91px;

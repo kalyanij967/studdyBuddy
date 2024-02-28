@@ -1,6 +1,7 @@
 import CardSection from '../CardSection/CardSection';
 import HomeCarousel from '../HomeCarousel/HomeCarousel'
-
+import Card from '../Cards/Cards';
+import Hero from '../Hero/Hero';
 const Home = () => {
     return (
         <>
@@ -8,7 +9,13 @@ const Home = () => {
                 <HomeCarousel/>
                 <br />
                 <CardSection/>
+                <Hero/>
+                <Card/>
+               
+
+
             </div>
+
         </>
     )
 }

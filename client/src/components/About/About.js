@@ -1,9 +1,9 @@
-const About = () => {
-    return (
-        <>
-            <h1>About</h1>
-        </>
-    );
+import React from 'react'
+import Blog from '../Blog/Blog'
+export default function About() {
+  return (
+    <div>
+      <Blog/>
+    </div>
+  )
 }
-
-export default About;

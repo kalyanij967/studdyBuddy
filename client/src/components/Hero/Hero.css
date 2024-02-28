@@ -1,0 +1,10 @@
+.hero{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.col-lg-custom-hero{
+    flex: 0 0 40%; /* Sets the column width to 25% */
+    max-width: 30%; /* Sets the maximum width to 25% */
+    text-align: left;
+  
+}

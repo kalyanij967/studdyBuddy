@@ -7,7 +7,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <>
-        <div className="footer row">
+        <div className="footer row ">
           <div className="col-2 align-items-center">
             <NavLink to="/" className='logof'>
                 <img src={logof} alt="logof" className='logof'/>

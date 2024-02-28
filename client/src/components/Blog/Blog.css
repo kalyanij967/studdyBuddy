@@ -1,0 +1,36 @@
+.Card{
+    margin: 10px ;
+    padding: 10px ;
+    text-align: left;
+   
+
+    h4{
+        margin-bottom: 15px;
+    }
+}
+.col-lg-custom-blog {
+    flex: 0 0 29%; /* Sets the column width to 29% */
+    max-width: 29%; /* Sets the maximum width to 29% */
+  }
+  
+  .line {
+    border-top: 2px solid grey; /* Adjust border properties as needed */
+    width:90%; /* Ensures the line spans the full width of the container */
+    margin-top: 10px; /* Adjust spacing between heading and line as needed */
+    margin-left: 90px;
+  }
+  
+.row{
+    justify-content: left;
+    padding-left: 100px;
+    
+    
+}
+
+.heading{
+    /* margin-left: auto; */
+
+    padding-left: 100px;
+
+    
+}

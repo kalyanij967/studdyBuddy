@@ -4,20 +4,25 @@ import './CardSection.css'
 const CardSection = () => {
   return (
     <>
-        <h2 className='text-center heading'>Why choose us?</h2>
-        <div className="row">
-            <div className="col-lg-3 Card ">
-                <h4 className='font-weight-bold'>The "good" kind of peer pressure</h4>
+        <h2 className='text-center heading'>With Sapience...</h2>
+        <div className="justify-between row padding-left-40px">
+            <div className="col-lg-custom-cardsection text-center Card ">
+                <h5 className='font-weight-bold'>The "good" kind of peer pressure</h5>
                 <p>You know how your parents always say peer pressure is bad? Well… when it comes to studying, they're wrong. Studying with peers helps you get better grades - and that's scientifically proven.</p>
             </div>
-            <div className="col-lg-3 Card">
-                <h4 className='font-weight-bold'>Friends,Fun and learning all at one place</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatum tenetur veritatis autem odit assumenda amet dolore, repellat facilis consequatur nisi sequi exercitationem, sapiente ab asperiores facere nulla doloremque. Totam.</p>
+            <div className="col-lg-custom-cardsection text-center Card">
+                <h5 className='font-weight-bold'>Embrace the power of community</h5>
+                <p>Whether tackling assignments or attending coaching institutes, working with like-minded peers enhances convenience and cultivates teamwork. Our discreet matching system connects you with supportive study companions who share your goals, making learning a comfortable and motivating experience.</p>
             </div>
-            <div className="col-lg-3 Card">
-                <h4 className='font-weight-bold'>Finding your community</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut accusamus unde deleniti perspiciatis blanditiis veniam excepturi neque voluptatum nobis dolores exercitationem facilis, eveniet officiis quasi dignissimos architecto eligendi aperiam iure.</p>
+            <div className="col-lg-custom-cardsection text-center Card">
+                <h5 className='font-weight-bold'>Breaking Barriers with AI Buddy</h5>
+                <p>With AI bots, we've got your back. From fixing grammar to simplifying text and translating languages, learning just got easier. Say goodbye to language barriers and hello to seamless learning</p>
             </div>
+            {/* <div className="col-lg-cardsection Card">
+                <h5 className='font-weight-bold'>Make learning an exciting journey</h5>
+                <p>Our platform connects you with like-minded individuals eager to explore educational venues together, whether it's a cozy book café, captivating museum, or insightful science center. Together, challenges become manageable, work becomes lighter and the learning journey transforms into a fulfilling adventure.</p>
+            </div> */}
+           
         </div>
     </>
   )

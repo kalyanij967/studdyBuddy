@@ -31,7 +31,7 @@ const HomeCarousel = () => {
         {/* <ExampleCarouselImage text="Third slide" /> */}
         <img src='https://u.profitroom.pl/2019-pieninygrand-pl/thumb/1920x810/uploads/PIENINYGRAND-RESTAURACJA1.jpg' alt="" className='image'/>
         <Carousel.Caption>
-          <h3 className='heading'>Grow</h3>
+          <h3 className='heading text-lg'>Grow</h3>
           <p className='text'>
           Thrive and flourish with Sapience's supportive community and AI-enhanced chat room. Every interaction, discovery, and collaboration on the platform propels you forward on your path to academic and personal growth, empowering you to achieve your goals and realize your full potential.
           </p>
