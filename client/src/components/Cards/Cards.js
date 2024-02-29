@@ -1,5 +1,10 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import {
+ 
+  Link
+} from "react-router-dom";
+
 const Cards = () => {
   return (
     <>
@@ -16,7 +21,7 @@ const Cards = () => {
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src="https://media.blogto.com/articles/fb01-20160226-kravecoffee.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70" />
           <Card.Body>
-            <Card.Title href="#" className='underline-text'>Study/Book Cafe</Card.Title>
+            <Link to ='/cafe'><Card.Title  className='underline-text'>Study/Book Cafe</Card.Title></Link>
           </Card.Body>
         </Card>
       </div>
