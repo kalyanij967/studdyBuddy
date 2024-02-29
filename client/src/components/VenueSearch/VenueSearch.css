@@ -1,0 +1,49 @@
+.cafe{
+    margin:10px;
+    padding: 20px;
+    text-align: center;
+}
+.venue-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute space between items */
+  }
+  
+  .listItemvenue {
+    flex-basis: calc(25% - 20px); /* Set flex-basis to accommodate four cards in a row */
+    margin: 20px;
+    padding: 10px;
+    max-width: 345px; /* Optionally, you can set a max-width for each card */
+    
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .location-dropdown {
+    margin-right: 10px;
+    padding: 8px;
+  }
+  
+  .search-bar {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
